@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student detail</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <form action="form.js" id="form" class="container">
+
+
+        <legend>
+            <h1>Student detail</h1>
+        </legend>
+
+        <p>
+            <label for="your_name" class="one"> Name:</label>
+            <input type="text" name="your_name" placeholder=" Enter your name" class="two">
+        </p>
+        <p>
+            <label for="reg_no" class="one"> Reg No:</label>
+            <input type="text" placeholder=" Enter your register number" class="two">
+        </p>
+        <p>
+            <label for=" Date_of_Birth" class="one"> Date of Birth:</label><br>
+            <input type="date" class="two">
+        </p>
+        <p>
+            <label for=" Email_id" class="one"> Email id:</label><br>
+            <input type="email" placeholder="Please enter a valid email address" class="two">
+        </p>
+        <p>
+            <label for=" Mobile " class="one"> Mobile: </label><br>
+            <input type="text" maxlength="10" class="two" placeholder="Enter your mobile number">
+        </p>
+            <legend class="gender1">Choose your gender:</legend>
+           <p class="gender">
+            <input type="radio" name="gender" id="male" value="male" checked>
+            <label for="male" class="normal">Male</label><br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female" class="normal">Female</label><br>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="female" class="normal">Other</label>
+           </p>
+        <p>
+            <label for=" College_Name" class="one"> College Name:</label> <br>
+            <input type="text" class="two" placeholder="Enter your college name">
+        </p>
+        <p>
+            <label for="Year_of_passing:" class="one">Year of passing:</label> <br>
+            <select name="year_of_passing" id="year_of_passing">
+                <option value="">select year</option>
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+                <option value="">2006</option>
+                <option value="">2007</option>
+                <option value="">2008</option>
+                <option value="">2009</option>
+                <option value="">2010</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+                <option value="">2023</option>
+            </select>
+        </p>
+        <p>
+            <label for=" Mark_Percentage" class="one"> Mark in Percentage:</label> <br>
+            <input type="text" placeholder="Enter your mark in percentage" class="two">
+        </p>
+        <p> <input type="submit" value="submit" name="submit_button" id="submit"></p>
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+    <script src="form.js"></script>
+</body>
+
+</html>
